@@ -1,0 +1,65 @@
+@font-face {
+    font-family: llamatxt;
+    src: url(other/SyneMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: spacetxt;
+    src: url(other/origin.ttf);
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(14, 13, 13), rgb(0,0,0), rgb(14, 13, 13));
+}
+
+h1 {
+    font-family: spacetxt;
+    font-size: 70px;
+    text-align: center;
+    margin-top: -4px;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: llamatxt;
+    text-align: center;
+    color: #ffffff;
+}
+
+.nebula {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.scene {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.scene img {
+    border-radius: 20px;
+}
+
+.frost {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.frost img {
+    border-radius: 20px;
+}
+
+.cl {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cl img {
+    border-radius: 20px;
+}
+
+.lc {
+    display: flex;
+    justify-content: space-evenly;
+}
