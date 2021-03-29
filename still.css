@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 0));
+    background-image: linear-gradient(to right, #416db4, #dca308);
 }
 
 h1 {
@@ -17,13 +17,13 @@ h1 {
     font-size: 70px;
     text-align: center;
     margin-top: -4px;
-    color: #ffffff;
+    color: black;
 }
 
 h3 {
     font-family: llamatxt;
     text-align: center;
-    background: linear-gradient(to right, blue, orange);
+    background: black;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -82,4 +82,36 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
+}
+
+.scenet {
+    color: black;
+    font-family: spacetxt;
+    font-size: 48px;
+    padding-left: 290px;
+    padding-top: 150px;
+}
+
+.frostt {
+    color: black;
+    font-family: spacetxt;
+    font-size: 48px;
+    padding-right: 380px;
+    padding-top: 240px;
+}
+
+.clt {
+    color: black;
+    font-family: spacetxt;
+    font-size: 48px;
+    padding-left: 220px;
+    padding-top: 190px;
+}
+
+.arm {
+    color: black;
+    font-family: spacetxt;
+    font-size: 48px;
+    padding-right: 240px;
+    padding-top: 240px;
 }
