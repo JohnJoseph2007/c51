@@ -1,14 +1,3 @@
-body {
-    background-image: url("other/hiresplanet.png");
-    background-size: cover;
-}
-
-@font-face {
-    font-family: spacetext;
-    src: url(other/origin.ttf);
-}
-
-* {
-    font-family: spacetext;
-    font-size: larger;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a401d20f7fb64e2ba1ff59ad3c896374aebab264d014ead19074828d5aaa8acc
+size 235

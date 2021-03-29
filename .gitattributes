@@ -13,3 +13,15 @@ stills/armanno.png filter=lfs diff=lfs merge=lfs -text
 stills/clu.png filter=lfs diff=lfs merge=lfs -text
 stills/flynn.png filter=lfs diff=lfs merge=lfs -text
 stills/pendulum.png filter=lfs diff=lfs merge=lfs -text
+index.html filter=lfs diff=lfs merge=lfs -text
+main.css filter=lfs diff=lfs merge=lfs -text
+still.html filter=lfs diff=lfs merge=lfs -text
+abtme.css filter=lfs diff=lfs merge=lfs -text
+abtme.html filter=lfs diff=lfs merge=lfs -text
+animations filter=lfs diff=lfs merge=lfs -text
+firebase-debug.log filter=lfs diff=lfs merge=lfs -text
+okzoom.js filter=lfs diff=lfs merge=lfs -text
+other filter=lfs diff=lfs merge=lfs -text
+picScripts filter=lfs diff=lfs merge=lfs -text
+still.css filter=lfs diff=lfs merge=lfs -text
+stills filter=lfs diff=lfs merge=lfs -text
