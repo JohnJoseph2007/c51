@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ice Core</title>
+        <link rel="stylesheet" type="text/css" href="/css/frost.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/okzoom.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(() => {
+                $('.frostimg').okzoom({
+                width: 200,
+                height: 200,
+                round: true,
+                background: "#000",
+                backgroundRepeat: "no-repeat",
+                shadow: "0 0 5px #000",
+                border: "1px solid black"
+                });
+            })
+        </script>
+        <div class="frostsc">
+            <img class="frostimg" src="/stills/hiresfrostpink.png" width="1440" height="810"/>
+        </div>
+        <h1 class="header">Ice Core</h1>
+        <h3 class="footer">This artwork was made on February 8th, 2021. Huge thanks to Ducky3D for the tutorial for this one.</h3>
+    </body>
+</html>

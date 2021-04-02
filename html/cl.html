@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desert Crash Landing</title>
+        <link rel="stylesheet" href="/css/cl.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/okzoom.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(() => {
+                $('.cl').okzoom({
+                width: 200,
+                height: 200,
+                round: true,
+                background: "#000",
+                backgroundRepeat: "no-repeat",
+                shadow: "0 0 5px #000",
+                border: "1px solid black"
+                });
+            })
+        </script>
+        <div class="clsc">
+            <img class="cl" src="/stills/crashland.png" width="1440" height="810"/>
+        </div>
+        <h1 class="header">desert crash landing</h1>
+        <h3 class="footer">This artwork was made on March 23rd, 2021. Huge thanks to Blender for the model for this one.</h3>
+    </body>
+</html>

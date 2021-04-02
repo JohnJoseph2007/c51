@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ferrari Armanno</title>
+        <link rel="stylesheet" href="/css/ar.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/okzoom.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(document).ready(() => {
+                $('.ar').okzoom({
+                width: 200,
+                height: 200,
+                round: true,
+                background: "#000",
+                backgroundRepeat: "no-repeat",
+                shadow: "0 0 5px #000",
+                border: "1px solid black"
+                });
+            })
+        </script>
+        <div class="arsc">
+            <img class="ar" src="/stills/armanno.png" width="1440" height="810"/>
+        </div>
+        <h1 class="header">Ferrari Armanno</h1>
+    </body>
+</html>
